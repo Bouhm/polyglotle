@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Polyglotl - Daily Puzzle</title>
+        <title>Polyglotle - Daily Puzzle</title>
         <meta name="description" content="Daily language puzzles" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
