@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "DIN";
+  src: url("/fonts/DIN.ttf");
+  src: url("/fonts/DIN Black.ttf");
+  src: url("/fonts/DIN Bold.ttf");
+  src: url("/fonts/DIN Medium.ttf");
+}
+
+.messagesContainer {
+  padding: 0 !important;
+  background-color: #D4D4D4;
+  border-radius: 0 50px 0 0;
+}
+
+.messagesContainer,
+.messagesContainer h2,
+.messagesContainer h3 {
+  font-family: 'DIN', sans-serif;
+  font-weight: 800;
+}
+
+.messageHeader {
+  height: 100px;
+  border-bottom: 2px solid #AFB1B3;
+  padding: 1rem 1rem 1rem 2.5rem !important;
+}
+
+.messageStatus {
+  color: #707174;
+}
+
+.messageContainer {
+  margin-bottom: 1rem;
+}
+
+.messageContainer.NPC {
+  margin-bottom: 1rem;
+}
+
+.messageContainer.Player,
+.messageContainer.PlayerAuto {
+  margin-bottom: 1rem;
+}
+
+.messages {
+  padding-top: 1rem;
+  max-height: calc(600px - 100px);
+  overflow-y: auto;
+}
+
+/* width */
+.messages::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+/* Track */
+.messages::-webkit-scrollbar-track {
+  background: #C3C5C7 !important;
+}
+
+/* Handle */
+.messages::-webkit-scrollbar-thumb {
+  background: #57575C !important;
+}
+
+.messages .messageContent {
+  margin: 0 1rem 0 1rem;
+}
+
+.messages .messageName {
+  color: #63656A;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0.2rem;
+}
+
+.messages .messageAvatar {
+  background-color: #3A3A3A;
+}
+
+.messages .messageBox {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.5em;
+  color: #2A2A2A;
+}
+
+.messages .messageBox.NPC {
+  background: #EBEBEB;
+  border-radius: 0 12px 12px 12px;
+  box-shadow: -2px 4px 2px -2px #ACACAC;
+}
+
+.messages .messageBox.Player,
+.messages .messageBox.PlayerAuto {
+  background: #D0BD95;
+  border-radius: 12px 0px 12px 12px;
+  box-shadow: 2px 4px 2px -2px #ACACAC;
+}
+
+
+.playerGuesses {}
